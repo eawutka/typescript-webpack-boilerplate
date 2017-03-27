@@ -1,4 +1,5 @@
 var path = require('path')
+var WebpackNotifierPlugin = require('webpack-notifier')
 
 module.exports = {
     context: path.join(__dirname, 'js-compiled'),
@@ -7,6 +8,9 @@ module.exports = {
         path: path.join(__dirname, 'js-built'),
         filename: '[name].bundle.js'
     },
+    plugins: [
+      new WebpackNotifierPlugin()
+    ],
     module: {
         loaders: [
             { test: /\.css$/, loader: "style!css" },
