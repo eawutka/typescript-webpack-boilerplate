@@ -1,7 +1,10 @@
 setup:
   install Node (nodejs.org)
   run "npm install" in CMD inside this directory
+  run "npm install -g typescript"
+  run "npm install -g webpack"
   make sure you don't have Typescript conflicts with older versions that get installed with Visual Studio
+    to check, run "tsc -v" and it should be >2.0
     this uses TS 2.2 and you may already have TS 1.0 already on your computer if you have VS2013
     check "C:\Program Files (x86)\Microsoft SDKs" and see if you have a Typescript folder
     just rename the folder because it probably only has unused older versions of TS

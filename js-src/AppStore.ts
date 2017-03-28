@@ -1,4 +1,6 @@
-import {observable, computed, action, useStrict} from 'mobx';
+import {observable, computed, action, useStrict} from 'mobx'
+
+useStrict(true)
 
 class AppStore {
     @observable private _title: string = "Hello, world"

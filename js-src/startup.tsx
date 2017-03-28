@@ -6,7 +6,6 @@ import {Router, Route, IndexRoute, hashHistory} from 'react-router'
 import AppStore from './AppStore'
 import App from './App'
 
-console.log('wat')
 
 setTimeout(() => {
   AppStore.setTitle('wat')
