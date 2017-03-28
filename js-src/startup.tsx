@@ -11,8 +11,9 @@ setTimeout(() => {
   AppStore.setTitle('wat')
 }, 2000)
 
-ReactDOM.render(
+ReactDOM.render(  
   <Router history={hashHistory}>
     <Route path="/" component={App} />
   </Router>,
-  document.getElementById('root'))
+  document.getElementById('root')
+)
