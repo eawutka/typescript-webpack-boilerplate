@@ -3,10 +3,10 @@ var WebpackNotifierPlugin = require('webpack-notifier')
 
 module.exports = {
     context: path.join(__dirname, 'js-compiled'),
-    entry: './app.js',
+    entry: './index.js',
     output: {
         path: path.join(__dirname, 'js-built'),
-        filename: '[name].bundle.js'
+        filename: '[name].js'
     },
     plugins: [
       new WebpackNotifierPlugin()

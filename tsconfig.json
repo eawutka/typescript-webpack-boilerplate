@@ -4,7 +4,10 @@
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "js-compiled/",
-    "watch": true
+    "watch": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "noImplicitAny": false
   },
   "exclude": [
     "node_modules"
