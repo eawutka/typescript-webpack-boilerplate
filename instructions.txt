@@ -7,7 +7,7 @@ setup:
     to check, run "tsc -v" and it should be >2.0
     this uses TS 2.2 and you may already have TS 1.0 already on your computer if you have VS2013
     check "C:\Program Files (x86)\Microsoft SDKs" and see if you have a Typescript folder
-    just rename the folder because it probably only has unused older versions of TS
+    just delete the folder if you have older or unused versions of TS
 
 dev:
   you have to have a Typescript compiler running
@@ -16,5 +16,11 @@ dev:
     in CMD:
       run "tsc"
       you're gonna need two CMD windows open
+    in Visual Studio:
+      I didn't spend the time getting this to work
+      make sure you don't have <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked> in your csproj
+      install Typescript for Visual Studio (www.typescriptlang.org)
+      all the settings will probably be wrong and a bunch of stuff won't work
+      good luck
   you also need Webpack running
     open up CMD and run "webpack -w"
