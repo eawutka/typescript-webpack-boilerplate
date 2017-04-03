@@ -19,7 +19,7 @@ Make sure you don't have Typescript conflicts with older versions that get insta
 * Check `C:\Program Files (x86)\Microsoft SDKs` and see if you have a Typescript folder
 * Just delete the folder if you have older or unused versions of TS
 
-If you're using this inside of a Visual Studio project, you're probably going to want to disable TS compilation
+If you're using this inside of a Visual Studio project, you're probably going to want to disable TS compilation because your project won't build at all unless Visual Studio is completely happy with your TS
 * add `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` to the first `<PropertyGroup>` in your csproj
 
 ### Dev:
