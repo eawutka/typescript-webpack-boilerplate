@@ -27,7 +27,7 @@ you have to have a Typescript compiler running
   * you're gonna need two CMD windows open
 * in Visual Studio:
   * I didn't spend the time getting this to work
-  * make sure you don't have `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` in your csproj
+  * remove `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` from your csproj
   * install Typescript for Visual Studio (www.typescriptlang.org)
   * all the settings will probably be wrong and a bunch of stuff won't work
   * good luck
