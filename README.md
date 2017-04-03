@@ -1,6 +1,6 @@
 # ts-webpack-boilerplate
 
-###setup:
+### setup:
 install Node (nodejs.org)
 
 * run `npm install` in CMD inside this directory
@@ -17,7 +17,7 @@ make sure you don't have Typescript conflicts with older versions that get insta
 if you're using this inside of a Visual Studio project, you're probably going to want to disable TS compilation
 * add `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` to the first `<PropertyGroup>` in your csproj
 
-##dev:
+### dev:
 you have to have a Typescript compiler running
 
 * in VS Code:
