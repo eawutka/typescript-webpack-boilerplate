@@ -6,11 +6,6 @@ import {HashRouter as Router, Route} from 'react-router-dom'
 import AppStore from './AppStore'
 import App from './App'
 
-
-setTimeout(() => {
-  AppStore.setTitle('wat')
-}, 2000)
-
 ReactDOM.render(  
   <Router>
     <Route path="/" component={App} />

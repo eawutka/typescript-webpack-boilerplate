@@ -12,6 +12,6 @@ export default class App extends React.Component<{}, {}> {
         <h1>{AppStore.title}</h1>
         <DevTools />
       </div>
-      )
-    }
+    )
+  }
 }
