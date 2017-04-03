@@ -8,6 +8,8 @@ setup:
     this uses TS 2.2 and you may already have TS 1.0 already on your computer if you have VS2013
     check "C:\Program Files (x86)\Microsoft SDKs" and see if you have a Typescript folder
     just delete the folder if you have older or unused versions of TS
+  if you're using this inside of a Visual Studio project, you're probably going to want to disable TS compilation
+    add <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked> to the first <PropertyGroup> in your csproj
 
 dev:
   you have to have a Typescript compiler running
