@@ -21,16 +21,16 @@ if you're using this inside of a Visual Studio project, you're probably going to
 you have to have a Typescript compiler running
 
 * in VS Code:
- * hit ctrl+shift+b to start the TS compiler
+  * hit ctrl+shift+b to start the TS compiler
 * in CMD:
- * run `tsc`
- * you're gonna need two CMD windows open
+  * run `tsc`
+  * you're gonna need two CMD windows open
 * in Visual Studio:
- * I didn't spend the time getting this to work
- * make sure you don't have `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` in your csproj
- * install Typescript for Visual Studio (www.typescriptlang.org)
- * all the settings will probably be wrong and a bunch of stuff won't work
- * good luck
+  * I didn't spend the time getting this to work
+  * make sure you don't have `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` in your csproj
+  * install Typescript for Visual Studio (www.typescriptlang.org)
+  * all the settings will probably be wrong and a bunch of stuff won't work
+  * good luck
 
 you also need Webpack running
 
