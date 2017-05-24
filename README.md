@@ -39,3 +39,6 @@ You have to have a Typescript compiler running:
 You also need Webpack running
 
 * Run `webpack -w`
+
+### Final Build:
+* Run "-webpack --optimize-minimize"
