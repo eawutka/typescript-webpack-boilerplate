@@ -23,22 +23,7 @@ If you're using this inside of a Visual Studio project, you're probably going to
 * add `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` to the first `<PropertyGroup>` in your csproj
 
 ### Dev:
-You have to have a Typescript compiler running:
-
-* In VS Code:
-  * Hit ctrl+shift+b
-* In CMD:
-  * Run `tsc`
-* In Visual Studio:
-  * I didn't spend the time getting this to work
-  * Remove `<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>` from your csproj
-  * Install Typescript for Visual Studio (www.typescriptlang.org)
-  * All the settings will probably be wrong and a bunch of stuff won't work
-  * Good luck
-
-You also need Webpack running
-
 * Run `webpack -w`
 
 ### Final Build:
-* Run "-webpack --optimize-minimize"
+* Run `-webpack --optimize-minimize`
