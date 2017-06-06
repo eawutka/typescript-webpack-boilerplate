@@ -1,7 +1,6 @@
 import { computed, observable } from 'mobx'
 
-import SampleEnum from './SampleEnum'
-import Guid from './Guid'
+import { Guid, SampleEnum } from './index'
 
 export default class SampleModel {
   @observable id: Guid
