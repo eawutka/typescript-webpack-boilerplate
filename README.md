@@ -5,6 +5,8 @@ Only concerned with JS, because you're likely to already have your HTML and CSS 
 
 Set up with react, react-router 4, and mobx.
 
+Pre-configured with TSLint. Works best with VS Code.
+
 ### Setup:
 Install Node (nodejs.org)
 
