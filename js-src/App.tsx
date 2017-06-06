@@ -1,8 +1,9 @@
 import * as React from 'react'
-import {observer, inject} from 'mobx-react'
+import { observer } from 'mobx-react'
 import DevTools from 'mobx-react-devtools'
 
 import AppStore from './AppStore'
+import { SampleComponent } from './components'
 
 @observer
 export default class App extends React.Component<{}, {}> {
@@ -10,6 +11,7 @@ export default class App extends React.Component<{}, {}> {
     return (
       <div>
         <h1>{AppStore.title}</h1>
+        <SampleComponent requiredProp='foo' />
         <DevTools />
       </div>
     )
