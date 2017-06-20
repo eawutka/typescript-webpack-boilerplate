@@ -10,7 +10,7 @@
     "arrow-parens": [true, "ban-single-arg-parens"],
     "ordered-imports": [true, {"import-sources-order" : "any"}],
     "eofline": false,
-    "interface-name": [false],
+    "interface-name": [true, "always-prefix"],
     "object-literal-shorthand": false,
     "object-literal-sort-keys": false,
     "object-literal-key-quotes": ["as-needed"],
