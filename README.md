@@ -28,4 +28,4 @@ If you're using this inside of a Visual Studio project, you're probably going to
 * Run `webpack -w`
 
 ### Final Build:
-* Run `-webpack --optimize-minimize`
+* Run `webpack --optimize-minimize`
